@@ -1,0 +1,7 @@
+# directories
+cache
+.jedi
+
+# files
+*.log
+
