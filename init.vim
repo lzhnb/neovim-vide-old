@@ -6,6 +6,8 @@
 "     \__/     |__| |_______/ |_______|
 "
 
+colorscheme onedark
+
 set number
 
 """ filetype setting
@@ -64,5 +66,5 @@ nmap <C-D> :bdelete<CR>
 "===================================================================
 "===                PLUGINS CONFIGURATIONS                       ===
 "===================================================================
-source ~/.config/nvim/plugins.vim
+lua require("plugins")
 
