@@ -6,6 +6,7 @@
 --     \__/     |__| |_______/ |_______|
 --
 require("config")
+require("bootstrap")
 require("plugins")
 
 vim.cmd("colorscheme onedark")

@@ -44,7 +44,6 @@ cfg.load_options = function()
     ---  SETTINGS  ---
 
     vim.opt.shortmess:append "c"
-    vim.o.pastetoggle="<F4>"
 
     vim.cmd("nmap <F3> :set hlsearch!<CR>")
     vim.cmd("nmap <C-J> :bnext<CR>")
