@@ -1,24 +1,21 @@
 local wk = require("which-key")
--- As an example, we will the create following mappings:
---  * <leader>ff find files
---  * <leader>fr show recent files
---  * <leader>fb Foobar
--- we'll document:
---  * <leader>fn new file
---  * <leader>fe edit file
--- and hide <leader>1
 
-wk.register({
-  f = {
-    name = "file", -- optional group name
-    f = { "<cmd>Telescope find_files<cr>", "Find File" }, -- create a binding with label
-  --  r = { "<cmd>Telescope oldfiles<cr>", "Open Recent File", noremap=false, buffer = 123 }, -- additional options for creating the keymap
-    n = { "New File" }, -- just a label. don't create any mapping
-    e = "Edit File", -- same as above
-    ["1"] = "which_key_ignore",  -- special label to hide it in the popup
-    b = { function() print("bar") end, "Foobar" } -- you can also pass functions!
-  },
-}, { prefix = "<leader>" })
+local mappings = {
+    -- file operation mapping
+    f = {
+        name = "file-telescope", -- optional group name
+        -- create bindings
+        f = { "<cmd>Telescope find_files<cr>", "Find File" },       -- find file using telescope(ctrl-p)
+        b = { "<cmd>Telescope find_buffers<cr>", "Find Buffer" },   -- find buffer using telescope
+        g = { "<cmd>Telescope live_grep<cr>", "live grep" },        -- grep using telescope
+        h = { "<cmd>Telescope help_tags<cr>", "telescope healp" },  -- telescope help
+        n = { "<cmd>enew<cr>", "New File" },                        -- create a new empty buffer
+        ["1"] = "which_key_ignore",                                 -- special label to hide it in the popup
+    }
+}
 
+local opts = { prefix = "<leader>" }
+
+wk.register(mappings, opts)
 
 
