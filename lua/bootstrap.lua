@@ -10,8 +10,19 @@ plugins = {
     "kyazdani42/nvim-tree.lua",
     "akinsho/bufferline.nvim",
     "hoob3rt/lualine.nvim",
+    "nvim-lua/plenary.nvim",
     "nvim-telescope/telescope.nvim",
-    "neovim/nvim-lspconfig"
+    "tpope/vim-commentary",
+    -- lsp
+    "neovim/nvim-lspconfig",
+    "kabouzeid/nvim-lspinstall",
+    -- completion
+    "hrsh7th/nvim-cmp",
+    "hrsh7th/cmp-buffer",
+    "hrsh7th/cmp-path",
+    "hrsh7th/cmp-nvim-lua",
+    "hrsh7th/cmp-nvim-lsp",
+    "saadparwaiz1/cmp_luasnip",
 }
 
 -- get the install path

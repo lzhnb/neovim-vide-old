@@ -8,7 +8,9 @@
 require("config")
 require("bootstrap")
 require("plugins")
+require("completion")
 
+vim.cmd("syntax on")
 vim.cmd("colorscheme onedark")
 
 

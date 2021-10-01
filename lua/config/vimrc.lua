@@ -46,6 +46,7 @@ cfg.load_options = function()
     vim.opt.shortmess:append "c"
 
     vim.cmd("nmap <F3> :set hlsearch!<CR>")
+    vim.cmd("nmap <F4> :set paste!<CR>")
     vim.cmd("nmap <C-J> :bnext<CR>")
     vim.cmd("nmap <C-K> :bprev<CR>")
     vim.cmd("nmap <C-D> :bdelete<CR>")
