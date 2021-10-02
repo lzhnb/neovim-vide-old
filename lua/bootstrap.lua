@@ -25,6 +25,7 @@ plugins = {
     "saadparwaiz1/cmp_luasnip",
 }
 
+
 -- get the install path
 local fn = vim.fn
 local install_dir = fn.stdpath("data").."/site/pack/packer/start"
