@@ -29,3 +29,6 @@
 [submodule "pack/packer/start/plenary.nvim"]
 	path = pack/packer/start/plenary.nvim
 	url = git@github.com:nvim-lua/plenary.nvim.git
+[submodule "pack/packer/start/vim-commentary"]
+	path = pack/packer/start/vim-commentary
+	url = git@github.com:tpope/vim-commentary.git
