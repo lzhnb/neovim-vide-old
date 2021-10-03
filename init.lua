@@ -6,7 +6,6 @@
 --     \__/     |__| |_______/ |_______|
 --
 require("config")
-require("bootstrap")
 require("plugins")
 require("completion")
 

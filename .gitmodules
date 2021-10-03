@@ -1,0 +1,31 @@
+[submodule "pack/packer/start/onedark.nvim"]
+	path = pack/packer/start/onedark.nvim
+	url = git@github.com:navarasu/onedark.nvim.git
+[submodule "pack/packer/start/lualine.nvim"]
+	path = pack/packer/start/lualine.nvim
+	url = git@github.com:hoob3rt/lualine.nvim.git
+[submodule "pack/packer/start/bufferline.nvim"]
+	path = pack/packer/start/bufferline.nvim
+	url = git@github.com:akinsho/bufferline.nvim.git
+[submodule "pack/packer/start/nvim-web-devicons"]
+	path = pack/packer/start/nvim-web-devicons
+	url = git@github.com:kyazdani42/nvim-web-devicons.git
+[submodule "pack/packer/start/telescope.nvim"]
+	path = pack/packer/start/telescope.nvim
+	url = git@github.com:nvim-telescope/telescope.nvim.git
+[submodule "pack/packer/start/nvim-lspconfig"]
+	path = pack/packer/start/nvim-lspconfig
+	url = git@github.com:neovim/nvim-lspconfig.git
+[submodule "pack/packer/start/which-key.nvim"]
+	path = pack/packer/start/which-key.nvim
+	url = git@github.com:folke/which-key.nvim.git
+[submodule "pack/packer/start/nvim-treesitter"]
+	path = pack/packer/start/nvim-treesitter
+	url = git@github.com:nvim-treesitter/nvim-treesitter.git
+[submodule "pack/packer/start/coc.nvim"]
+	path = pack/packer/start/coc.nvim
+	url = git@github.com:neoclide/coc.nvim.git
+	branch = release
+[submodule "pack/packer/start/plenary.nvim"]
+	path = pack/packer/start/plenary.nvim
+	url = git@github.com:nvim-lua/plenary.nvim.git
