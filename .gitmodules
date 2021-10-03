@@ -13,9 +13,6 @@
 [submodule "pack/packer/start/telescope.nvim"]
 	path = pack/packer/start/telescope.nvim
 	url = git@github.com:nvim-telescope/telescope.nvim.git
-[submodule "pack/packer/start/nvim-lspconfig"]
-	path = pack/packer/start/nvim-lspconfig
-	url = git@github.com:neovim/nvim-lspconfig.git
 [submodule "pack/packer/start/which-key.nvim"]
 	path = pack/packer/start/which-key.nvim
 	url = git@github.com:folke/which-key.nvim.git

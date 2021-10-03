@@ -8,6 +8,10 @@
     },
     "python": {
         "pythonPath": "~/miniconda3/envs/py38/bin/python",
+        "analysis": {
+            "autoImportCompletions": false,
+            "autoSearchPaths": false
+        },
         "formatting": {
             "provider": "yapf",
             "yapfPath": "~/miniconda3/envs/py38/bin/yapf",
@@ -17,7 +21,7 @@
             ]
         },
         "linting": {
-            "enabled": true,
+            "enabled": false,
             "flake8Enabled": false
         }
     },
