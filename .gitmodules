@@ -35,3 +35,6 @@
 [submodule "pack/packer/start/nvim-tree.lua"]
 	path = pack/packer/start/nvim-tree.lua
 	url = git@github.com:kyazdani42/nvim-tree.lua.git
+[submodule "pack/packer/start/vista.vim"]
+	path = pack/packer/start/vista.vim
+	url = git@github.com:liuchengxu/vista.vim.git
