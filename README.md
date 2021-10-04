@@ -26,6 +26,11 @@ coc-explorer
 coc-pyright
 ```
 
+## Completion Operations
+- `ctrl-n`: Next completion
+- `ctrl-p`: Previou completion
+- `ctrl-y`: Confirm completion
+
 ## Python Setting
 Using `coc-pyright` to realize completion, and using `jedi-vim` to realize **go-to**.
 We disable the autocompletion of `jedi-vim`.

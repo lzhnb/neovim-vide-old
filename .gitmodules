@@ -32,3 +32,6 @@
 [submodule "pack/packer/start/jedi-vim"]
 	path = pack/packer/start/jedi-vim
 	url = git@github.com:davidhalter/jedi-vim.git
+[submodule "pack/packer/start/nvim-tree.lua"]
+	path = pack/packer/start/nvim-tree.lua
+	url = git@github.com:kyazdani42/nvim-tree.lua.git

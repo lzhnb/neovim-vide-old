@@ -24,37 +24,6 @@
             "enabled": false,
             "flake8Enabled": false
         }
-    },
-    "explorer": {
-        "sources": [
-            {
-                "name": "bookmark",
-                "expand": false
-            },
-            {
-                "name": "buffer",
-                "expand": false
-            },
-            {
-                "name": "file",
-                "expand": true
-            }
-        ],
-        "file": {
-            "showHiddenFiles": false,
-            "column": {
-                "git.showIgnored": true,
-                "indent.indentLine": true
-            }
-        },
-        "width": 50,
-        "position": "right",
-        "quitOnOpen": true,
-        "PreviewActionStrategy": "content",
-        "icon": {
-            "enableNerdfont": true,
-            "source": "nvim-web-devicons"
-        }
     }
 }
 
