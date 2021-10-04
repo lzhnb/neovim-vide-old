@@ -1,11 +1,11 @@
 local wk = require("which-key")
 
-local mappings = {
+local wk_mappings = {
     -- file operation mapping
     f = {
         name = "file-telescope", -- optional group name
         -- create bindings
-        f = {":Telescope find_files<CCR>", "Find File"},       -- find file using telescope(ctrl-p)
+        f = {":Telescope find_files<CR>", "Find File"},       -- find file using telescope(ctrl-p)
         b = {":Telescope find_buffers<CR>", "Find Buffer"},    -- find buffer using telescope
         g = {":Telescope live_grep<CR>", "live grep"},         -- grep using telescope
         h = {":Telescope help_tags<CR>", "telescope healp"},   -- telescope help
@@ -21,9 +21,25 @@ local mappings = {
     }
 }
 
-local opts = {prefix = "<leader>"}
+local wk_opts = {prefix = "<leader>"}
 
-wk.register(mappings, opts)
+wk.register(wk_mappings, wk_opts)
+
+
+local function map(mode, lhs, rhs, opts)
+  	local options = {noremap = true}
+  	if opts then options = vim.tbl_extend("force", options, opts) end
+  	vim.api.nvim_set_keymap(mode, lhs, rhs, options)
+end
+
+local opts = {noremap=true, silent=true}
+
+map("n", "<F3>", ":set hlsearch!<CR>", opts)
+map("n", "<F4>", ":set paste!<CR>", opts)
+map("n", "<C-K>", ":bnext<CR>", opts)
+map("n", "<C-J>", ":bprev<CR>", opts)
+map("n", "<C-D>", ":bdelete<CR>", opts)
+
 
 
 

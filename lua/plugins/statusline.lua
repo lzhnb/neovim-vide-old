@@ -8,9 +8,10 @@ require("lualine").setup {
         disableed_filetypes = {},
 	},
     sections = {
-        lualine_a = {"mode"},
+        lualine_a = {"mode", "vim.o.paste"},
         lualine_b = {
-			{"branch"}, {"diff"}
+			{"branch"},
+            {"diff"},
 		},
         lualine_y = {"progress"},
         lualine_z = {"location"}
