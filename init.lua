@@ -7,7 +7,7 @@
 --
 require("config")
 require("plugins")
-require("completion")
+require("language")
 
 vim.cmd("source coc.vim")
 vim.cmd("syntax on")

@@ -14,6 +14,5 @@ vim.g.coc_global_extensions = {
 }
 
 -- coc-explorer
-vim.cmd("nmap <C-E> :CocCommand explorer<CR>")
-
+vim.api.nvim_set_keymap("n", "<C-E>", ":CocCommand explorer<CR>", {noremap=true, silent=true})
 

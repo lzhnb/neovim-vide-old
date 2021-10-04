@@ -29,3 +29,6 @@
 [submodule "pack/packer/start/vim-commentary"]
 	path = pack/packer/start/vim-commentary
 	url = git@github.com:tpope/vim-commentary.git
+[submodule "pack/packer/start/jedi-vim"]
+	path = pack/packer/start/jedi-vim
+	url = git@github.com:davidhalter/jedi-vim.git

@@ -26,5 +26,13 @@ coc-explorer
 coc-pyright
 ```
 
+## Python Setting
+Using `coc-pyright` to realize completion, and using `jedi-vim` to realize **go-to**.
+We disable the autocompletion of `jedi-vim`.
+- `<leader>d`: go to definition
+- `K`: check documentation of class or method
+- `<leader>n`: show the usage of a name in current file
+- `<leader>r`: rename a name
+
 TODO
 
