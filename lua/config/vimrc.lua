@@ -43,13 +43,11 @@ cfg.load_options = function()
     }
     ---  SETTINGS  ---
 
-    vim.opt.shortmess:append "c"
-
-    vim.cmd("nmap <F3> :set hlsearch!<CR>")
-    vim.cmd("nmap <F4> :set paste!<CR>")
-    vim.cmd("nmap <C-J> :bnext<CR>")
-    vim.cmd("nmap <C-K> :bprev<CR>")
-    vim.cmd("nmap <C-D> :bdelete<CR>")
+    vim.api.nvim_set_keymap("n", "<F3>", ":set hlsearch!<CR>", {noremap=true, silent=true})
+    vim.api.nvim_set_keymap("n", "<F4>", ":set paste!<CR>", {noremap=true, silent=true})
+    vim.api.nvim_set_keymap("n", "<C-J>", ":bnext<CR>", {noremap=true, silent=true})
+    vim.api.nvim_set_keymap("n", "<C-J>", ":bprev<CR>", {noremap=true, silent=true})
+    vim.api.nvim_set_keymap("n", "<C-D>", ":bdelete<CR>", {noremap=true, silent=true})
 
     for k, v in pairs(vimrc_args) do
         vim.opt[k] = v

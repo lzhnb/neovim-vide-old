@@ -9,7 +9,6 @@ require("config")
 require("plugins")
 require("language")
 
-vim.cmd("source coc.vim")
 vim.cmd("syntax on")
 vim.cmd("colorscheme onedark")
 
