@@ -8,4 +8,8 @@ vim.g.vista_icon_indent = {"╰─▸ ", "├─▸ "}
 -- See all the avaliable executives via `:echo g:vista#executives`.
 vim.g.vista_default_executive = "coc"
 
+vim.g.vista_echo_cursor_strategy = "floating_win" -- floating preview
+vim.g.vista_sidebar_width = 30  -- width of vista
+vim.g.vista_cursor_delay = 400  -- stay delay to show the information of current
+vim.g.vista_stay_on_open = 1    -- move to the vista while opening it
 

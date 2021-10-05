@@ -12,8 +12,9 @@ require("lualine").setup {
         lualine_b = {
 			{"branch"},
             {"diff"},
+            {"vim.b.vista_nearest_method_or_function"},
 		},
-        lualine_c = {"vim.b.vista_nearest_method_or_function"},
+        -- lualine_c = {"vim.b.vista_nearest_method_or_function"},
         lualine_y = {"progress"},
         lualine_z = {"location"}
     },

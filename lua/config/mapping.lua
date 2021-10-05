@@ -18,7 +18,8 @@ local wk_mappings = {
         s = {":CocCommand git.chunkStage<CR>", "Stage Hunk"},  -- save the hunk change
         u = {":CocCommand git.chunkUndo<CR>", "Undo Hunk"},    -- undo the hunk
         c = {":CocCommand git.showCommit<CR>", "Show Commit"},  -- show commit information
-    }
+    },
+    v = {":Vista!!<CR>", "Tagbar"} -- using vista to realize tag bar
 }
 
 local wk_opts = {prefix = "<leader>"}
