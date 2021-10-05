@@ -1,4 +1,5 @@
 -- statusline
+local M = {}
 
 -- lualine
 require("lualine").setup {
@@ -31,8 +32,7 @@ require("lualine").setup {
 }
 
 -- bufferline
-vim.opt.termguicolors = true
-require("bufferline").setup{}
+-- require("bufferline").setup{}
 
-
+return M
 
