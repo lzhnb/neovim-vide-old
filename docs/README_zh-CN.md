@@ -4,16 +4,8 @@
 
 ## 安装
 ```
-git clone --recursive -d 1 https://github.com/lzhnb/neovim-vide ~/.config/nvim
+git clone -d 1 https://github.com/lzhnb/neovim-vide ~/.config/nvim
 ```
-- 注意:
-我们没有使用插件管理器，如 `vim-plug/packer.nvim`，我们通过 `git submodule` 来管理插件。
-当更新完子模块后，这些子模块应在 `pack` 目录中，然后，使用者应该通过一下方式构建软连接:
-```sh
-cd ~/.local/share/nvim/site
-ln -s $HOME/.config/nvim/pack .
-```
-> 注意: 给定 `ln` 的路径必须是绝对路径
 
 ## Vim 操作
 ### 光标跳转(普通模式下常用)

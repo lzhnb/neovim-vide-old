@@ -5,7 +5,7 @@
 --    \    /    |  | |  '--'  ||  |____
 --     \__/     |__| |_______/ |_______|
 --
-require("config")
+require("core")
 require("plugins")
 require("language")
 
